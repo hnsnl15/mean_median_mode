@@ -2,9 +2,9 @@ import asyncHandler from "express-async-handler";
 
 export const healthcheck = asyncHandler((req, res) => {
   try {
-    res.status(200).send("Ok");
+    res.status(200);
   } catch (error) {
-    res.status(400).send("Error");
+    res.status(400);
   }
 
   return null;
