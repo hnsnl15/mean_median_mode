@@ -5,10 +5,10 @@
     "node": "18.12.0"
   },
   "description": "A simple project to calculate the mean, median, and mode.",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Henson Lao",
