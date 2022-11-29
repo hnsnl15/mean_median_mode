@@ -1,0 +1,22 @@
+{
+  "name": "mean-median-mode",
+  "version": "1.0.0",
+  "description": "A simple project to calculate the mean, median, and mode.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henson Lao",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
