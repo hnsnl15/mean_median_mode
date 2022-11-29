@@ -3,6 +3,6 @@ import { getMode } from "./mode.controller.js";
 
 const modeRoute = express.Router();
 
-modeRoute.route("/api/mode", getMode).get(getMode);
+modeRoute.route("/api/mode", getMode).post(getMode);
 
 export default modeRoute;

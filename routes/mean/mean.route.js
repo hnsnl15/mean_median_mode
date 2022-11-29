@@ -3,6 +3,6 @@ import { getMean } from "./mean.controller.js";
 
 const meanRoute = express.Router();
 
-meanRoute.route("/api/mean").get(getMean);
+meanRoute.route("/api/mean").post(getMean);
 
 export default meanRoute;
