@@ -1,6 +1,9 @@
 {
   "name": "mean-median-mode",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.12.0"
+  },
   "description": "A simple project to calculate the mean, median, and mode.",
   "main": "server.js",
   "type": "module",
