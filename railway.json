@@ -8,6 +8,6 @@
     "startCommand": "echo starting!",
     "healthcheckPath": "/",
     "restartPolicyType": "NEVER",
-    "healthcheckTimeout": 100
+    "healthcheckTimeout": 300
   }
 }
