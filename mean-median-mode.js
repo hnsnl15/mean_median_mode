@@ -1,6 +1,7 @@
 //const age = [59, 21, 25, 22, 24, 42, 41];
 
 //const district = [1, 2, 3, 4, 5, 6, 1, 1, 2, 2, 3, 4, 5, 6];
+import compareFn from "./lib/sort-number.js";
 
 export const mean = (array) => {
   /* This function can receive array of numbers and can return the average of all numbers listed in that array. */
@@ -10,7 +11,7 @@ export const mean = (array) => {
 
 export const median = (array) => {
   /* This function can receive an array of numbers and can return the median of all numbers listed in that array. */
-  const sortedArr = array.sort();
+  const sortedArr = array.sort(compareFn);
   const roundedIndex = Math.floor(sortedArr.length / 2);
 
   if (sortedArr.length % 2 === 0) {
@@ -27,7 +28,7 @@ export const median = (array) => {
 
 export const mode = (array) => {
   /* This function can receive an array of numbers and will return an array of numbers with the most frequency. */
-  array.sort();
+  array.sort(compareFn);
   let count = {};
 
   array.forEach((num) => {
