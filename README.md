@@ -2,6 +2,8 @@
 ## A simple Express JS project to calculate the mean, median, and mode.
 > Frontend application: https://mean-median-mode-frontend.vercel.app/
 
+> Repository: https://github.com/hnsnl15/mean_median_mode_frontend
+
 ### Mean
 > The mean (aka the arithmetic mean, different from the geometric mean) of a dataset is the sum of all values divided by the total number of values. It's the most commonly used measure of central tendency and is often referred to as the “average.”
 
