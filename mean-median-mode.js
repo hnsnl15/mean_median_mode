@@ -19,7 +19,7 @@ export const median = (array) => {
 
     const nums = md1 + md2;
 
-    return Math.round((nums / 2) * 100) / 100;
+    return ((nums / 2) * 100) / 100;
   }
 
   return sortedArr[roundedIndex];
@@ -37,10 +37,7 @@ export const mode = (array) => {
   const arrOfObjectValuesSorted = Object.values(count).sort();
 
   const result = Object.keys(count).filter(
-    (n) =>
-      count[n] ===
-        arrOfObjectValuesSorted[arrOfObjectValuesSorted.length - 1] &&
-      count[n] > 1
+    (n) => count[n] === arrOfObjectValuesSorted[arrOfObjectValuesSorted.length - 1] && count[n] > 1
   );
 
   return result;

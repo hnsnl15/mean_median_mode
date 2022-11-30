@@ -7,7 +7,6 @@ import errorHandler from "./middleware/error-handler.js";
 import meanRoute from "./routes/mean/mean.route.js";
 import medianRoute from "./routes/median/median.route.js";
 import modeRoute from "./routes/mode/mode.route.js";
-import healthRoute from "./routes/health/health.route.js";
 
 dotenv.config();
 const app = express();
@@ -23,7 +22,6 @@ app.get("/", (req, res) => {
 app.use("/", meanRoute);
 app.use("/", medianRoute);
 app.use("/", modeRoute);
-app.use("/", healthRoute);
 
 app.use(errorHandler);
 
